@@ -1,0 +1,17 @@
+package demo.selenium;
+
+import org.openqa.selenium.WebDriver;
+
+public class AlertDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		WebDriver dr = new ChromeDriver();
+		dr.get("https://artoftesting.com/samplesiteforselenium");
+		WebElement button=d.findElement(By.xpath("//button[@onclick='generateAlertBox()']"));
+		button.click();
+
+	}
+
+}

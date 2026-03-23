@@ -1,0 +1,9 @@
+package Base;
+
+import org.testng.annotations.Test;
+
+public class LaunchApplication {
+  @Test
+  public void f() {
+  }
+}

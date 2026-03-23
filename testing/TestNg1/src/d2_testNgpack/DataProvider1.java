@@ -1,0 +1,28 @@
+package d2_testNgpack;
+
+import org.testng.annotations.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.DataProvider;
+
+public class DataProvider1 {
+	
+  @Test(dataProvider = "dp")
+  public void f(String n, String s) throws InterruptedException {
+	  WebDriver dr = new ChromeDriver();
+	  dr.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+	  Thread.sleep(3000);
+	  dr.findElement(By.name("username")).sendKeys(n);
+	  dr.findElement(By.name("password")).sendKeys(s);
+	  dr.findElement(By.xpath("//button[@type='submit']")).click();
+  }
+
+  @DataProvider(parallel = true)
+  public Object[][] dp() {
+    return new Object[][] {
+      new Object[] { "abcd", "54743" },
+      new Object[] { "Admin", "admin123" },
+    };
+  }
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="methods" name="Failed suite [Suite]">
+  <test thread-count="5" parallel="methods" name="Test(failed)">
+    <classes>
+      <class name="day2_testNgpack.multiple">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="login"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- day2_testNgpack.multiple -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,26 @@
+package Base;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+
+public class LauchWebsite1 {
+    protected WebDriver dr;
+
+    @BeforeMethod // Removed @Test from here
+    public void setup() {
+        // Note: Ensure you have the WebDriverManager or Selenium 4.6+ 
+        // which handles the driver executable automatically.
+        dr = new ChromeDriver();
+        dr.get("https://sauce-demo.myshopify.com/account/register");
+        dr.manage().window().maximize();
+    }
+
+    @AfterMethod
+    public void down() {
+        if (dr != null) {
+            dr.quit();
+        }
+    }
+}

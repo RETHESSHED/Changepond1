@@ -1,0 +1,33 @@
+package Base;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test; // Import this
+
+public class LauchWebsite1 {
+    protected WebDriver dr;
+
+    @BeforeMethod
+    public void setup() {
+        dr = new ChromeDriver();
+        dr.get("https://sauce-demo.myshopify.com");
+        dr.manage().window().maximize();
+    }
+
+    // ADD THIS TEST CASE
+    @Test
+    public void verifyPageTitle() {
+        String title = dr.getTitle();
+        System.out.println("The page title is: " + title);
+    }
+
+    @AfterMethod
+    public void down() throws InterruptedException {
+        Thread.sleep(5000);
+        if (dr != null) {
+            dr.quit();
+        }
+    }
+}

@@ -1,0 +1,21 @@
+package demo.selenium;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+
+public class Printingmethod {
+	public static void main(String[] args) {
+		WebDriver dr = new FirefoxDriver();
+		
+		dr.get("https://www.gmail.com");
+//		String t = dr.getTitle();
+//		System.out.println(t);
+//		
+		System.out.println(dr.getTitle());
+		
+		
+	}
+	
+
+}

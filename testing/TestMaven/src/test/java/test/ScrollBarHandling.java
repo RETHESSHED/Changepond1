@@ -1,0 +1,26 @@
+package test;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+public class ScrollBarHandling {
+  @Test
+  public void f() throws InterruptedException {
+	  
+	  WebDriver dr= new ChromeDriver();
+	  dr.get("https://practice.expandtesting.com/scrollbars");
+	  JavascriptExecutor j = (JavascriptExecutor) dr;
+		/*
+		 * Thread.sleep(3000); j.executeScript("window.scrollBy(0,500)");
+		 * Thread.sleep(3000); j.executeScript("window.scrollBy(0,-500)");
+		 */
+	  WebElement link= dr.findElement(By.xpath("//a[@class='my-link']"));
+	  j.executeScript("arguments[0].scrollIntoView();",link);
+	  Thread.sleep(3000);
+	  link.click();
+  }
+}

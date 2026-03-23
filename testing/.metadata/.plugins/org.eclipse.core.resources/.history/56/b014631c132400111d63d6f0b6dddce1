@@ -1,0 +1,22 @@
+package day2_testNgpack;
+
+import org.testng.annotations.Test;
+
+public class PriorityDemo {
+	@Test
+	  public void Reg() {
+		  System.out.println("Reg test case");
+	  }
+	  @Test
+	  public void Login() {
+		  System.out.println("Login Test  Case");
+	  }
+	  @Test
+	  public void Home() {
+		  System.out.println("Home Tet Case");
+	  }
+	  @Test
+	  public void Logout() {
+		  System.out.println("Log-out test cases");
+	  }
+}

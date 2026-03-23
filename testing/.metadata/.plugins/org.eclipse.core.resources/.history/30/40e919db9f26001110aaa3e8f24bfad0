@@ -1,0 +1,27 @@
+package Base;
+
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterMethod;
+
+public class LaunchWebsite {
+	WebDriver dr;
+  @Test
+  public void f() {
+  }
+  @BeforeMethod
+  public void setup() {
+	  dr = new ChromeDriver();
+	  dr.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+	  dr.manage().window().maximize();
+  }
+
+  @AfterMethod
+  public void down() throws InterruptedException {
+	  Thread.sleep(5000);
+	  dr.quit();
+  }
+
+}

@@ -1,0 +1,15 @@
+package demo.selenium;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+
+public class PractiseTestAutomation {
+	public static void main() {
+		
+		WebDriver dr = new ChromeDriver();
+		dr.get("https://practicetestautomation.com/practice-test-login/ ");
+		
+	}
+
+}

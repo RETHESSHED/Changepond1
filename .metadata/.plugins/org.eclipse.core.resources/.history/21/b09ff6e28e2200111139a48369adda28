@@ -1,0 +1,40 @@
+package demo.selenium;
+
+import org.openqa.selenium.Dimension;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class task {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			WebDriver dr = new ChromeDriver();
+			
+//			1. Open the Facebook page or any webpage you want
+			dr.get("https://www.google.com");
+			
+//			2. Maximize the webpage
+			dr.manage().window().maximize();
+			
+//			3. Get window size
+			System.out.println(dr.manage().window().getSize());
+			
+//			4. Get the title of the webpage and print it in the console
+			System.out.println(dr.getTitle());
+			
+//			5. Minimize the webpage
+			dr.manage().window().minimize();
+			
+//			6. Apply some waiting time and again maximize the webpage
+			Thread.sleep(2000);
+			dr.manage().window().maximize();
+			
+//			7. Get the current URL and print it in the console
+			System.out.println(dr.getCurrentUrl());
+			
+//			8. Open webpage in 700* 800 size
+//			9. Apply some waiting time and close the browser
+
+	}
+
+}

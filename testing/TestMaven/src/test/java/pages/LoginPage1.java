@@ -1,0 +1,39 @@
+package pages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class LoginPage1 {
+	WebDriver dr;
+	private By uid1 = By.name("customer[first_name]");
+	private By uid2 = By.name("customer[last_name]");
+	private By email = By.name("customer[email]");
+	private By pwd = By.name("customer[password]");
+	
+	public LoginPage1(WebDriver dr) {
+		this.dr = dr;
+	}
+	
+	public void enterfirstname(String firstname) {
+		dr.findElement(uid1).sendKeys(firstname);
+		
+	}
+	public void enterlastname(String lastname) {
+		dr.findElement(uid2).sendKeys(lastname);
+		
+	}
+	public void enteremai(String email1) {
+		dr.findElement(email).sendKeys(email1);
+		
+	}
+	public void enterPassword(String password) {
+		dr.findElement(pwd).sendKeys(password);
+		
+	}
+	
+	
+//	public static void main(String[] args) {
+//		
+//	}
+
+}

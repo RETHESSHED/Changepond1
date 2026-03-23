@@ -1,0 +1,75 @@
+package demo.selenium;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+
+public class PractiseTestAutomation {
+	public static void main(String[] args) throws InterruptedException {
+		
+		WebDriver dr = new ChromeDriver();
+		dr.get("https://practicetestautomation.com/practice-test-login/");
+		dr.manage().window().maximize();
+		WebElement username = dr.findElement(By.id("username"));
+		username.click();
+		
+		username.sendKeys("welcome");
+//		WebElement password = dr.findElement(By.id("password"));
+//		password.sendKeys("223454");
+//		WebElement btn = dr.findElement(By.id("submit"));
+//		btn.click();
+//		WebElement errormsg = dr.findElement(By.id("error"));
+//		String s = errormsg.getText();
+//		System.out.println(s);
+//		
+		
+		Thread.sleep(3000);
+//		username.clear();
+		
+		String s = username.getAttribute("value");
+		System.out.println(s);
+		
+		
+		System.out.println(username.getTagName());
+		System.out.println(username.getSize());
+		
+		
+		//display - visibility check
+		System.out.println(username.isDisplayed());
+		
+		//is enabled - element is interactable or not
+		System.out.println(username.isEnabled());
+		
+		//is selected - used for checkbox or dropdown list 
+		System.out.println(username.isSelected());
+		
+		
+		
+		/*
+		 * web-element method 
+		 * 
+		 * 1. Click(): For clicking purposes
+		 * 
+		 * 2. Sendkeys(): For giving input
+		 * 
+		 * 3. Clear():remove input
+		 * 
+		 * 4.GetText():
+		 * 
+		 * 5. Getattribute: Fetch input that is available in the text box 
+		 * 6. * getTagName(): Name of HTML Tag
+		 *  7. getSize():return height and width of the * webelement 
+		 * 8. isDisplayed(): visibility check
+		 *  9. isEnabled():intersctable 
+		 *  10. * isSelected(): dropdown or checkbox selected or not
+		 */
+		
+		dr1.get("https://demo.automationtesting.in/Register.html")
+		WebElement hobbies = dr1.findElement(By.id("hobbies"));
+		hobbies.click();
+		
+	}
+
+}

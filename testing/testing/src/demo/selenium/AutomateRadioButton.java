@@ -1,0 +1,34 @@
+package demo.selenium;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class AutomateRadioButton {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		WebDriver dr = new ChromeDriver();
+		dr.get("https://demo.automationtesting.in/Register.html");
+		
+//		WebElement male = dr.findElement(By.name("radiooptions"));
+////		Thread.sleep(3000);
+//		male.click();
+//		Thread.sleep(3000);
+//		male.clear();
+		
+//		WebElement feMale = dr.findElement(By.name("radiooptions"));
+//		Thread.sleep(3000);
+//		feMale.click();
+		
+		WebElement username = dr.findElement(By.xpath("//input[@ng-model='FirstName']"));
+		username.sendKeys("abcd");
+		
+		
+		
+	
+	}
+	
+
+}
+	

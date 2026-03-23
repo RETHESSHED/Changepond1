@@ -1,0 +1,16 @@
+package test1;
+
+import org.testng.annotations.Test;
+
+import Base.LaunchWebsite;
+import pages.LoginPage;
+
+public class RunLogin extends LoginPage{
+  @Test
+  public void run() {
+	  LoginPage lp= new LoginPage(dr);
+	  lp.enterUserName("abcd");
+	  lp.enterPassword("23456");
+	  
+  }
+}

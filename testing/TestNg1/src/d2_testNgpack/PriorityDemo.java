@@ -1,0 +1,26 @@
+package d2_testNgpack;
+
+import org.testng.SkipException;
+import org.testng.annotations.Test;
+
+public class PriorityDemo {
+	  @Test(priority = 4)
+	  public void Logout() {
+		  System.out.println("Log-out test cases");
+	  }
+	@Test(priority = 1)
+	  public void Reg() {
+		  System.out.println("Reg test case");
+	  }
+	  @Test(priority = 2)
+	  
+	  public void Login() {
+		  throw new SkipException("Under construction");
+		  //System.out.println("Login Test  Case");
+	  }
+	  @Test(priority = 3, enabled = false)
+	  public void Home() {
+		  System.out.println("Home Tet Case");
+	  }
+
+}

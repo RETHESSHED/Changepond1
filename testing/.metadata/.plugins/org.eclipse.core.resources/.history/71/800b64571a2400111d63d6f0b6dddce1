@@ -1,0 +1,51 @@
+package day2_testNgpack;
+
+import org.testng.annotations.Test;
+
+import com.beust.jcommander.Parameter;
+import com.beust.jcommander.Parameters;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class multiple {
+	WebDriver dr;
+
+	  @Test
+
+	  @Parameters({"username","password"})
+
+	  public void login(String username,String password) throws InterruptedException {
+
+	    Thread.sleep(5000);
+
+	    dr.findElement(By.name("username")).sendKeys(username);
+
+	    dr.findElement(By.name("password")).sendKeys(password);
+
+	  }
+
+	  @BeforeTest
+
+	  public void beforeTest() {
+
+	  dr= new ChromeDriver();
+
+	  dr.get("https://practice.expandtesting.com/login");
+
+	  }
+
+	  
+
+	 
+
+	  @AfterTest
+
+	  public void afterTest() {
+
+	    dr.close();
+
+	  }
+
+}

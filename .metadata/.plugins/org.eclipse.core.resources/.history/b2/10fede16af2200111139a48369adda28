@@ -1,0 +1,21 @@
+package demo.selenium;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+
+public class NavigateMethod {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		WebDriver dr = new ChromeDriver();
+		dr.get("https://www.flipkart.com/");
+		WebDriver dr1 = new ChromeDriver();
+		dr1.get("https://www.google.com");
+		
+		
+
+	}
+
+}

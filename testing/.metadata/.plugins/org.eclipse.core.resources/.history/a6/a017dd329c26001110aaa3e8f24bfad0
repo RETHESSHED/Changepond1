@@ -1,0 +1,13 @@
+package Base;
+
+import java.sql.Driver;
+
+import org.testng.annotations.Test;
+
+public class LaunchApplication {
+  @Test
+  public void testLogin() {
+	  Loo l = new Loo(Driver);
+	  l.enter
+  }
+}

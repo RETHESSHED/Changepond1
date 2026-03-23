@@ -1,0 +1,18 @@
+package demo.selenium;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+
+public class PractiseTestAutomation {
+	public static void main() {
+		
+		WebDriver dr = new FirefoxDriver();
+		dr.get("https://practicetestautomation.com/practice-test-login/");
+		dr.manage().window().maximize();
+		WebElement username = dr.findElement()
+		
+	}
+
+}

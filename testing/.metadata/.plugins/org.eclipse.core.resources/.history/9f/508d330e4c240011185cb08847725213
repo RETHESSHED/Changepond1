@@ -1,0 +1,30 @@
+package day2_testNgpack;
+
+import java.io.File;
+import java.io.IOException;
+
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+
+
+public class OrangeHrm {
+	WebDriver dr;
+  @Test
+  public void f() throws IOException, InterruptedException {
+	  dr= new ChromeDriver();
+	  dr.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+	  WebElement username = dr.findElement(By.name("username"));
+	  username.sendKeys("abcd")
+	  Thread.sleep(5000);
+	  File f = ((TakesScreenshot)dr).getScreenshotAs(OutputType.FILE);
+	  File desfile= new File("C:\\Users\\rethessh.ed\\Desktop\\rethu\\testing\\snapshot\\img.png");
+	  FileUtils.copyFile(f,desfile);
+  }
+}

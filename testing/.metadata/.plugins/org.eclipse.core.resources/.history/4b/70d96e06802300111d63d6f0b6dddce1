@@ -1,0 +1,18 @@
+package testNgpack;
+
+import org.testng.annotations.Test;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class NewTest1 {
+  @Test
+  public void f() {
+	  WebDriver dr = new ChromeDriver();
+	  dr.get("https://www.google.com");
+	  dr.manage().window().maximize();
+	  System.out.println(dr.getTitle());
+	  Thread.sleep(3000);
+	  System.out.println(dr.getCurrentUrl());
+	  dr.close();
+  }
+}

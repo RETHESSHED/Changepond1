@@ -1,0 +1,14 @@
+package test1;
+
+import org.testng.annotations.Test;
+
+import Base.LaunchWebsite;
+import pages.LoginPage;
+
+public class RunLogin extends LaunchWebsite{
+  @Test
+  public void run() {
+	  LoginPage lp = new LoginPage(dr);
+	  
+  }
+}

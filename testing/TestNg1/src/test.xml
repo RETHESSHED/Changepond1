@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="methods">
+  <test name="Test">
+  
+  
+<!--<groups>
+<run>
+<include name = "smoke"/>
+</run>
+</groups>-->
+
+
+
+    <classes>
+      <class name="day2_testNgpack.multiple"/>
+      		<class name = "day2_testNgpack.DemoParallel"/>
+      		
+      		
+      		
+<!--      <parameter name = "username" value="welcome"/>
+      <parameter name = "password" value="1234"/>-->
+      
+      
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

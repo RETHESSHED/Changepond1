@@ -1,0 +1,27 @@
+package demo.selenium;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+
+public class NavigateMethod {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		
+		WebDriver dr = new ChromeDriver();
+		dr.get("https://www.flipkart.com/");
+//		WebDriver dr1 = new ChromeDriver();
+		dr.get("https://www.google.com");
+		Thread.sleep(3000);
+		dr.navigate().back();
+		dr.navigate().forward();
+		dr.navigate().refresh();
+		Thread.sleep(3000);
+		dr.close();
+		dr.navigate().back();
+		
+
+	}
+
+}

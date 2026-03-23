@@ -1,0 +1,17 @@
+package day2_testNgpack;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+public class PrintDropDownMenu {
+  @Test
+  public void f() {
+	  WebElement dr = new ChromeDriver();
+	  dr.get("https://practice.expandtesting.com/dropdown");
+	  WebElement country = dr.findElement(By.id("country"));
+	  System.out.println(country.getText());
+	  
+  }
+}

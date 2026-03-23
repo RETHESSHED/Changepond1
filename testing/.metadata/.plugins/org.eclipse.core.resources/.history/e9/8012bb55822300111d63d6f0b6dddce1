@@ -1,0 +1,29 @@
+package testNgpack;
+
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeTest;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterTest;
+
+public class NewTest2 {
+	WebDriver dr;
+  @Test
+  public void f() throws InterruptedException {
+	  Thread.sleep(5000);
+	  dr.findElement(By.id("input")).sendKeys("Welcome");
+  }
+  @BeforeTest
+  public void beforeTest() {
+	  dr = new ChromeDriver();
+	  dr.get("https://www.google.com");
+  }
+
+  @AfterTest
+  public void afterTest() throws InterruptedException {
+	  Thread.sleep(2000);
+	  dr.close();
+  }
+
+}

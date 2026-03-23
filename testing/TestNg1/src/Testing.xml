@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="testNgpack.NewTest3"/>
+      	 <class name="testNgpack.NewTest1"/>
+      	 	 <class name="testNgpack.NewTest2"/>
+      	 	 	 <class name="testNgpack.OpenBrowser"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

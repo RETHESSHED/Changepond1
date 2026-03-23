@@ -1,0 +1,24 @@
+package day2_testNgpack;
+
+import org.testng.annotations.Test;
+
+import com.beust.jcommander.Parameter;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class multiple {
+	WebDriver dr;
+  @Test
+  @Parameter(("username","password"));
+  public void Login(String username,String password) {
+	  dr = new ChromeDriver();
+	  dr.get("https://practice.expandtesting.com/login");
+	  dr.findElement(By.name("username")).sendKeys(username);
+	  dr.findElement(By.name("password")).sendKeys(password);
+	  Thread.sleep(2000);
+	  dr.close();
+  }
+
+}

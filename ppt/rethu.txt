@@ -1,0 +1,51 @@
+"Hi everyone, good morning to all.
+My name is Rethessh E D, and my team members are Kishore, Andrews, Hari, and Nirmal.
+Today, we are going to talk about the .NET framework.
+But before we start our session, I have a question for you all:
+'What is coding, and how did the concept of coding first come into the world?'"
+
+
+
+thanks for the answer, "In the early days, back in the 90s, all records were handled manually. 
+This often led to errors or delays. To overcome these issues, Charles Babbage invented the computer. 
+However, computers only understand binary, which is 0s and 1s. To interact with a computer, 
+a tool called coding was developed. Through coding, people could easily communicate with computers
+ and get their work done much faster. This is how the concept of coding came into existence."
+
+
+
+.NET is a free, cross-platform, open-source software development framework created by Microsoft to help 
+developers build applications easily. The principal designer of the C# programming language (which is core to .NET)
+ and a key architect of.NET development is Anders Hejlsberg. .NET was 
+released on February 13, 2002. The main goal of .NET is to provide a runtime environment
+ (the Common Language Runtime, or CLR) to execute programs, 
+support multiple programming languages, and offer a vast library of ready-made functionalities and tools to 
+build web, desktop, mobile, cloud, IoT, and gaming applications.
+
+
+In the late 1990s, the .NET was originally branded as NGWS - Next Generation Windows Services,  Later, this name was
+ changed as .NET. Before .NET, Windows applications were primarily built using technologies such as the Win32 API, 
+Visual Basic 6, and C++. These technology were hard to maintain, not consistent, missing feature like garbage collection 
+and complex for beginners.Microsoft aimed to create a modern, secure, object-oriented platform to compete with Java's 
+capabilities. Thus, in the year 2000, Microsoft announced the .NET Framework, a new programming language called C#, and a
+ new runtime called the CLR (Common Language Runtime). .NET Framework 1.0 was released on February 13, 2002, which included 
+an updated version of the CLR 1.0, a new base class library, ASP.NET for web applications, and support for VB.NET and C#.
+ This marked the beginning of the modern Microsoft development ecosystem.
+ASP.NET core - active server pages was rewritten from scratch for performance
+ Subsequent versions were released with upgrades, including: 
+.NET Framework 2.0 in November 2005.
+.NET Framework 3.0 in November 2006.
+.NET Framework 4.0 in April 2010. 
+
+Microsoft later realized developers needed cross-platform apps, open-source technologies, and cloud-native performance. 
+To address these needs, they created .NET Core in 2016, which is open source, runs on any OS, faster and lightweight.
+In 2020, Microsoft merged the .NET Framework, .NET Core, and Xamarin (for mobile development) into a single unified 
+platform simply called .NET. This unified platform, starting with .NET 5, is known as the future of .NET development.
+New versions have been released annually since then: 
+.NET 6 (LTS) released in November 2021.
+.NET 7 (STS) released in November 2022.
+.NET 8 (LTS), the current long-term support version, released in November 2023.
+.NET 9 (STS) released in November 2024. The next long-term support release, .NET 10, was made generally available
+ this month on November 11, 2025. It offers a unified, cross-platform, high-performance platform for web, desktop, 
+cloud, and API applications, with support scheduled until November 2028.
+

@@ -1,0 +1,16 @@
+Write a program which will find all such numbers which are divisible by 7 but are not a multiple of 5,
+between 2000 and 3200 (both included).
+
+Write a program which can compute the factorial of a given number
+
+Reverse the given digit for eg:input - 14339 outpu - 93341
+
+For a given string fiand out the number of vowels and number of consonant
+"This is a python programming language it is highlevel"
+
+For a given string count each number of vowels and print it
+"This is a python programming language it is highlevel"
+for eg: print output as  
+a : count of a in string
+e : count of e in string`
+

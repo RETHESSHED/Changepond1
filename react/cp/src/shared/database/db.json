@@ -1,0 +1,844 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Super Admin",
+      "email": "admin@gmail.com",
+      "password": "admin@123",
+      "role": "admin",
+      "contact": "9999999999"
+    },
+    {
+      "id": "2",
+      "name": "Arun Sir",
+      "email": "arun@gmail.com",
+      "password": "trainer",
+      "role": "trainer",
+      "specialization": "MERN Stack",
+      "assignedBatches": [
+        "FS-01",
+        "FS-02"
+      ],
+      "experience": "6 Years"
+    },
+    {
+      "id": "3",
+      "name": "Priya Ma'am",
+      "email": "priya@gmail.com",
+      "password": "123456",
+      "role": "trainer",
+      "specialization": "Python & Django",
+      "assignedBatches": [
+        "PY-01",
+        "DS-01"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Suresh Raina",
+      "email": "suresh@gmail.com",
+      "password": "123456",
+      "role": "trainer",
+      "specialization": "Java Full Stack",
+      "assignedBatches": [
+        "JA-01",
+        "JA-02"
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Meera Iyer",
+      "email": "meera@gmail.com",
+      "password": "trainer_meera",
+      "role": "trainer",
+      "specialization": "UI/UX Design",
+      "assignedBatches": [
+        "UI-01"
+      ]
+    },
+    {
+      "id": "102",
+      "name": "Bhavna K",
+      "email": "bhavna@gmail.com",
+      "password": "student123",
+      "role": "student",
+      "batchName": "FS-01",
+      "enrolledCourse": "Full Stack Web Development",
+      "contact": "9840123457",
+      "qualification": "B.Tech IT",
+      "address": "T. Nagar, Chennai"
+    },
+    {
+      "id": "103",
+      "name": "Chaitanya P",
+      "email": "chaitanya@gmail.com",
+      "password": "student123",
+      "role": "student",
+      "batchName": "FS-01",
+      "enrolledCourse": "Full Stack Web Development",
+      "contact": "9840123458",
+      "qualification": "MCA",
+      "address": "Velachery, Chennai"
+    },
+    {
+      "id": "104",
+      "name": "Dinesh M",
+      "email": "dinesh@gmail.com",
+      "password": "student123",
+      "role": "student",
+      "batchName": "FS-01",
+      "enrolledCourse": "Full Stack Web Development",
+      "contact": "9840123459",
+      "qualification": "B.E. ECE",
+      "address": "Tambaram, Chennai"
+    },
+    {
+      "id": "105",
+      "name": "Eswari L",
+      "email": "eswari@gmail.com",
+      "password": "student123",
+      "role": "student",
+      "batchName": "FS-01",
+      "enrolledCourse": "Full Stack Web Development",
+      "contact": "9840123460",
+      "qualification": "B.Sc CS",
+      "address": "Anna Nagar, Chennai",
+      "gender": "M",
+      "dob": "122302"
+    },
+    {
+      "id": "106",
+      "name": "Farhan S",
+      "email": "farhan@gmail.com",
+      "password": "farhan@123",
+      "role": "student",
+      "batchName": "FS-02",
+      "enrolledCourse": "Full Stack Web Development",
+      "contact": "9740123461",
+      "qualification": "B.Tech",
+      "address": "Madhapur, Hyderabad"
+    },
+    {
+      "id": "107",
+      "name": "Gita R",
+      "email": "gita@gmail.com",
+      "password": "student123",
+      "role": "student",
+      "batchName": "FS-02",
+      "enrolledCourse": "Full Stack Web Development",
+      "contact": "9740123462",
+      "qualification": "B.E",
+      "address": "Banjara Hills, Hyderabad"
+    },
+    {
+      "id": "108",
+      "name": "Harish T",
+      "email": "harish@gmail.com",
+      "password": "student123",
+      "role": "student",
+      "batchName": "FS-02",
+      "enrolledCourse": "Full Stack Web Development",
+      "contact": "9740123463",
+      "qualification": "MCA",
+      "address": "Secunderabad"
+    },
+    {
+      "id": "109",
+      "name": "Indira J",
+      "email": "indira@gmail.com",
+      "password": "student123",
+      "role": "student",
+      "batchName": "FS-02",
+      "enrolledCourse": "Full Stack Web Development",
+      "contact": "9740123464",
+      "qualification": "B.Sc",
+      "address": "Gachibowli, Hyderabad"
+    },
+    {
+      "id": "110",
+      "name": "Javed K",
+      "email": "javed@gmail.com",
+      "password": "student123",
+      "role": "student",
+      "batchName": "FS-02",
+      "enrolledCourse": "Full Stack Web Development",
+      "contact": "9740123465",
+      "qualification": "B.Tech",
+      "address": "Kukatpally, Hyderabad"
+    },
+    {
+      "id": "201",
+      "name": "Kavya S",
+      "email": "kavya@gmail.com",
+      "password": "student123",
+      "role": "student",
+      "batchName": "PY-01",
+      "enrolledCourse": "Python Development",
+      "contact": "9123456780",
+      "qualification": "B.E. IT",
+      "address": "Whitefield, Bangalore"
+    },
+    {
+      "id": "202",
+      "name": "Lokesh N",
+      "email": "lokesh@gmail.com",
+      "password": "student123",
+      "role": "student",
+      "batchName": "PY-01",
+      "enrolledCourse": "Python Development",
+      "contact": "9123456781",
+      "qualification": "B.Tech CSE",
+      "address": "Indiranagar, Bangalore"
+    },
+    {
+      "id": "203",
+      "name": "Mani G",
+      "email": "mani@gmail.com",
+      "password": "student123",
+      "role": "student",
+      "batchName": "PY-01",
+      "enrolledCourse": "Python Development",
+      "contact": "9123456782",
+      "qualification": "BCA",
+      "address": "Electronic City, Bangalore"
+    },
+    {
+      "id": "204",
+      "name": "Nandini A",
+      "email": "nandini@gmail.com",
+      "password": "student123",
+      "role": "student",
+      "batchName": "PY-01",
+      "enrolledCourse": "Python Development",
+      "contact": "9123456783",
+      "qualification": "M.Sc CS",
+      "address": "Koramangala, Bangalore"
+    },
+    {
+      "id": "205",
+      "name": "Omprakash B",
+      "email": "omprakash@gmail.com",
+      "password": "student123",
+      "role": "student",
+      "batchName": "PY-01",
+      "enrolledCourse": "Python Development",
+      "contact": "9123456784",
+      "qualification": "B.E.",
+      "address": "HSR Layout, Bangalore"
+    },
+    {
+      "id": "206",
+      "name": "Pallavi C",
+      "email": "pallavi@gmail.com",
+      "password": "student123",
+      "role": "student",
+      "batchName": "DS-01",
+      "enrolledCourse": "Data Science",
+      "contact": "9123456785",
+      "qualification": "M.Tech",
+      "address": "Pune, Maharashtra"
+    },
+    {
+      "id": "207",
+      "name": "Qadir M",
+      "email": "qadir@gmail.com",
+      "password": "student123",
+      "role": "student",
+      "batchName": "DS-01",
+      "enrolledCourse": "Data Science",
+      "contact": "9123456786",
+      "qualification": "B.E. Mech",
+      "address": "Pune, Maharashtra"
+    },
+    {
+      "id": "208",
+      "name": "Riya V",
+      "email": "riya@gmail.com",
+      "password": "student123",
+      "role": "student",
+      "batchName": "DS-01",
+      "enrolledCourse": "Data Science",
+      "contact": "9123456787",
+      "qualification": "MCA",
+      "address": "Mumbai"
+    },
+    {
+      "id": "209",
+      "name": "Siddharth D",
+      "email": "siddharth@gmail.com",
+      "password": "student@1",
+      "role": "student",
+      "batchName": "DS-01",
+      "enrolledCourse": "Data Science",
+      "contact": "9123456788",
+      "qualification": "B.Tech",
+      "address": "Mumbai"
+    },
+    {
+      "id": "210",
+      "name": "Tanya E",
+      "email": "tanya@gmail.com",
+      "password": "student123",
+      "role": "student",
+      "batchName": "DS-01",
+      "enrolledCourse": "Data Science",
+      "contact": "9123456789",
+      "qualification": "B.Sc Maths",
+      "address": "Pune"
+    },
+    {
+      "id": "301",
+      "name": "Umesh K",
+      "email": "umesh@gmail.com",
+      "password": "student123",
+      "role": "student",
+      "batchName": "JA-01",
+      "enrolledCourse": "Java Development",
+      "contact": "8881112220",
+      "qualification": "B.E.",
+      "address": "Siruseri, Chennai"
+    },
+    {
+      "id": "302",
+      "name": "Varun L",
+      "email": "varun@gmail.com",
+      "password": "student123",
+      "role": "student",
+      "batchName": "JA-01",
+      "enrolledCourse": "Java Development",
+      "contact": "8881112221",
+      "qualification": "B.Tech",
+      "address": "Kelambakkam, Chennai"
+    },
+    {
+      "id": "303",
+      "name": "Waseem M",
+      "email": "waseem@gmail.com",
+      "password": "student123",
+      "role": "student",
+      "batchName": "JA-01",
+      "enrolledCourse": "Java Development",
+      "contact": "8881112222",
+      "qualification": "MCA",
+      "address": "Navalur, Chennai"
+    },
+    {
+      "id": "304",
+      "name": "Xavier N",
+      "email": "xavier@gmail.com",
+      "password": "student123",
+      "role": "student",
+      "batchName": "JA-01",
+      "enrolledCourse": "Java Development",
+      "contact": "8881112223",
+      "qualification": "B.E. CSE",
+      "address": "OMR, Chennai"
+    },
+    {
+      "id": "305",
+      "name": "Yash P",
+      "email": "yash@gmail.com",
+      "password": "student123",
+      "role": "student",
+      "batchName": "JA-01",
+      "enrolledCourse": "Java Development",
+      "contact": "8881112224",
+      "qualification": "B.Tech IT",
+      "address": "Chennai"
+    },
+    {
+      "id": "306",
+      "name": "Zoya Q",
+      "email": "zoya@gmail.com",
+      "password": "student123",
+      "role": "student",
+      "batchName": "JA-02",
+      "enrolledCourse": "Java Development",
+      "contact": "8881112225",
+      "qualification": "B.E.",
+      "address": "Delhi"
+    },
+    {
+      "id": "307",
+      "name": "Anand R",
+      "email": "anand@gmail.com",
+      "password": "student123",
+      "role": "student",
+      "batchName": "JA-02",
+      "enrolledCourse": "Java Development",
+      "contact": "8881112226",
+      "qualification": "B.Tech",
+      "address": "Noida"
+    },
+    {
+      "id": "308",
+      "name": "Bala S",
+      "email": "bala@gmail.com",
+      "password": "student123",
+      "role": "student",
+      "batchName": "JA-02",
+      "enrolledCourse": "Java Development",
+      "contact": "8881112227",
+      "qualification": "MCA",
+      "address": "Gurgaon"
+    },
+    {
+      "id": "309",
+      "name": "Chetan T",
+      "email": "chetan@gmail.com",
+      "password": "student123",
+      "role": "student",
+      "batchName": "JA-02",
+      "enrolledCourse": "Java Development",
+      "contact": "8881112228",
+      "qualification": "B.E.",
+      "address": "Delhi"
+    },
+    {
+      "id": "310",
+      "name": "Devi U",
+      "email": "devi@gmail.com",
+      "password": "student123",
+      "role": "student",
+      "batchName": "JA-02",
+      "enrolledCourse": "Java Development",
+      "contact": "8881112229",
+      "qualification": "B.Tech",
+      "address": "Delhi"
+    },
+    {
+      "id": "401",
+      "name": "Eisha V",
+      "email": "eisha@gmail.com",
+      "password": "student123",
+      "role": "student",
+      "batchName": "UI-01",
+      "enrolledCourse": "UI/UX Design",
+      "contact": "7770001110",
+      "qualification": "B.Des",
+      "address": "Ahmedabad"
+    },
+    {
+      "id": "402",
+      "name": "Faisal W",
+      "email": "faisal@gmail.com",
+      "password": "student123",
+      "role": "student",
+      "batchName": "UI-01",
+      "enrolledCourse": "UI/UX Design",
+      "contact": "7770001111",
+      "qualification": "BFA",
+      "address": "Ahmedabad"
+    },
+    {
+      "id": "403",
+      "name": "Gokul X",
+      "email": "gokul@gmail.com",
+      "password": "student123",
+      "role": "student",
+      "batchName": "UI-01",
+      "enrolledCourse": "UI/UX Design",
+      "contact": "7770001112",
+      "qualification": "B.Arch",
+      "address": "Ahmedabad"
+    },
+    {
+      "id": "404",
+      "name": "Hemant Y",
+      "email": "hemant@gmail.com",
+      "password": "student123",
+      "role": "student",
+      "batchName": "UI-01",
+      "enrolledCourse": "UI/UX Design",
+      "contact": "7770001113",
+      "qualification": "B.E.",
+      "address": "Ahmedabad"
+    },
+    {
+      "id": "405",
+      "name": "Ishani Z",
+      "email": "ishani@gmail.com",
+      "password": "student123",
+      "role": "student",
+      "batchName": "UI-01",
+      "enrolledCourse": "UI/UX Design",
+      "contact": "7770001114",
+      "qualification": "MCA",
+      "address": "Ahmedabad"
+    },
+    {
+      "id": "406",
+      "name": "Jyoti A",
+      "email": "jyoti@gmail.com",
+      "password": "student123",
+      "role": "student",
+      "batchName": "UI-01",
+      "enrolledCourse": "UI/UX Design",
+      "contact": "7770001115",
+      "qualification": "B.Des",
+      "address": "Ahmedabad"
+    },
+    {
+      "id": "407",
+      "name": "Kunal B",
+      "email": "kunal@gmail.com",
+      "password": "student123",
+      "role": "student",
+      "batchName": "UI-01",
+      "enrolledCourse": "UI/UX Design",
+      "contact": "7770001116",
+      "qualification": "BFA",
+      "address": "Ahmedabad"
+    },
+    {
+      "id": "408",
+      "name": "Lata C",
+      "email": "lata@gmail.com",
+      "password": "student123",
+      "role": "student",
+      "batchName": "UI-01",
+      "enrolledCourse": "UI/UX Design",
+      "contact": "7770001117",
+      "qualification": "B.Des",
+      "address": "Ahmedabad"
+    },
+    {
+      "id": "409",
+      "name": "Mohan D",
+      "email": "mohan@gmail.com",
+      "password": "student123",
+      "role": "student",
+      "batchName": "UI-01",
+      "enrolledCourse": "UI/UX Design",
+      "contact": "7770001118",
+      "qualification": "MCA",
+      "address": "Ahmedabad"
+    },
+    {
+      "id": "410",
+      "name": "Nupur E",
+      "email": "nupur@gmail.com",
+      "password": "student123",
+      "role": "student",
+      "batchName": "UI-01",
+      "enrolledCourse": "UI/UX Design",
+      "contact": "7770001119",
+      "qualification": "B.Des",
+      "address": "Ahmedabad"
+    },
+    {
+      "id": "1770919341970",
+      "name": "tiru",
+      "email": "tiru@gmail.com",
+      "password": "tiru@123",
+      "contact": "8072118869",
+      "qualification": "B.tech",
+      "address": "chennai",
+      "enrolledCourse": "Java Development",
+      "batchName": "PY-01",
+      "role": "student",
+      "gender": "Male",
+      "dob": "18/05/2002"
+    },
+    {
+      "id": "1770920986431",
+      "name": "mani",
+      "email": "mani@gmail.com",
+      "password": "12345",
+      "contact": "8483838383",
+      "qualification": "BTech",
+      "address": "Cheanni",
+      "enrolledCourse": "Data Science",
+      "role": "student",
+      "batchName": "DS-01",
+      "trainerId": "3",
+      "gender": "Male"
+    },
+    {
+      "id": "1771069635380",
+      "name": "reethu",
+      "email": "reethu@gmail.com",
+      "password": "reethu@123",
+      "contact": "8494849498",
+      "qualification": "MCA",
+      "address": "Chennai",
+      "enrolledCourse": "Data Science",
+      "role": "student",
+      "batchName": "DS-01",
+      "trainerId": "3"
+    },
+    {
+      "id": "1771232350093",
+      "name": "Kishore",
+      "email": "kishore@gmail.com",
+      "password": "tiru123!",
+      "contact": "9876543210",
+      "qualification": "BTech",
+      "address": "Chennai",
+      "enrolledCourse": "Full Stack Web Development",
+      "role": "student",
+      "batchName": "FS-01",
+      "trainerId": "2"
+    },
+    {
+      "id": "1771235018139",
+      "name": "Nirmal",
+      "email": "nirmal@gmail.com",
+      "password": "nirmal@123",
+      "contact": "9876543210",
+      "qualification": "MCA",
+      "address": "Chennai",
+      "enrolledCourse": "Java Development",
+      "role": "student",
+      "batchName": "JA-01",
+      "trainerId": "6",
+      "gender": "Male",
+      "dob": "2026-02-28"
+    },
+    {
+      "id": "1e3c",
+      "name": "Raju",
+      "email": "raju@gmail.com",
+      "password": "trainerPassword",
+      "contact": "9876543210",
+      "specialization": ".Net",
+      "experience": "10 Years",
+      "role": "trainer"
+    },
+    {
+      "id": "1771261127822",
+      "name": "t",
+      "email": "tir",
+      "password": "fjweij",
+      "contact": "fnldnl",
+      "qualification": "fad",
+      "address": "fd",
+      "enrolledCourse": "Data Science",
+      "role": "student",
+      "batchName": "DS-01",
+      "trainerId": "3"
+    }
+  ],
+  "courses": [
+    {
+      "id": "1",
+      "name": "Full Stack Web Development",
+      "duration": "6 Months"
+    },
+    {
+      "id": "2",
+      "name": "Python Development",
+      "duration": "3 Months"
+    },
+    {
+      "id": "3",
+      "name": "Data Science",
+      "duration": "8 Months"
+    },
+    {
+      "id": "4",
+      "name": "Java Development",
+      "duration": "4 Months"
+    },
+    {
+      "id": "5",
+      "name": "UI/UX Design",
+      "duration": "3 Months"
+    }
+  ],
+  "batches": [
+    {
+      "id": "1",
+      "name": "FS-01",
+      "trainerId": "2",
+      "time": "10:00 AM"
+    },
+    {
+      "id": "2",
+      "name": "FS-02",
+      "trainerId": "2",
+      "time": "02:00 PM"
+    },
+    {
+      "id": "3",
+      "name": "PY-01",
+      "trainerId": "3",
+      "time": "11:00 AM"
+    },
+    {
+      "id": "4",
+      "name": "JA-01",
+      "trainerId": "6",
+      "time": "09:00 AM"
+    },
+    {
+      "id": "5",
+      "name": "UI-01",
+      "trainerId": "7",
+      "time": "04:00 PM"
+    },
+    {
+      "id": "6",
+      "name": "DS-01",
+      "trainerId": "3",
+      "time": "06:00 PM"
+    },
+    {
+      "id": "7",
+      "name": "JA-02",
+      "trainerId": "6",
+      "time": "11:00 AM"
+    }
+  ],
+  "achievements": [
+    {
+      "id": "1",
+      "name": "Arun Sir",
+      "role": "trainer",
+      "email": "arun@gmail.com",
+      "title": "Mentor of the Month",
+      "description": "Awarded for exceptional guidance and achieving a 100% placement rate for the FS-01 batch.",
+      "date": "2026-01-30"
+    },
+    {
+      "id": "2",
+      "name": "Aakash V",
+      "role": "student",
+      "email": "aakash@gmail.com",
+      "title": "Top Performer - FS-01",
+      "description": "Outstanding project work in building a scalable e-commerce microservices architecture.",
+      "date": "2026-02-05"
+    },
+    {
+      "id": "3",
+      "name": "Priya Ma'am",
+      "role": "trainer",
+      "email": "priya@gmail.com",
+      "title": "Innovation Excellence",
+      "description": "Recognized for integrating advanced AI modules into the Python & Data Science curriculum.",
+      "date": "2026-01-15"
+    },
+    {
+      "id": "4",
+      "name": "Kavya S",
+      "role": "student",
+      "email": "kavya@gmail.com",
+      "title": "Fast Learner Award",
+      "description": "Successfully mastered Python basics and completed 5 automation scripts within the first month.",
+      "date": "2026-02-10"
+    },
+    {
+      "id": "5",
+      "name": "Meera Iyer",
+      "role": "trainer",
+      "email": "meera@gmail.com",
+      "title": "Design Visionary",
+      "description": "Consistently inspiring students with industry-standard UI/UX workshops and case studies.",
+      "date": "2025-12-20"
+    }
+  ],
+  "notifications": [
+    {
+      "receiverId": "2",
+      "message": "Student Aakash V gave feedback: \"Great knowledge. Testing Feedback. Rating 4\"",
+      "isRead": true,
+      "createdAt": "2026-02-15T08:08:21.214Z",
+      "id": "1"
+    },
+    {
+      "receiverId": "2",
+      "message": "Student Chaitanya P gave feedback: \"Testing feedback rating 3\"",
+      "isRead": true,
+      "createdAt": "2026-02-15T08:12:15.348Z",
+      "id": "2"
+    },
+    {
+      "id": "0f80",
+      "receiverId": "101",
+      "message": "Trainer Arun Sir added a note: \"Test\"",
+      "isRead": true,
+      "createdAt": "2026-02-16T08:55:55.370Z"
+    }
+  ],
+  "feedbacks": [
+    {
+      "studentId": "101",
+      "studentName": "Aakash V",
+      "trainerId": "2",
+      "trainerName": "Arun Sir",
+      "rating": 4,
+      "message": "Great knowledge. Testing Feedback. Rating 4",
+      "createdAt": "2026-02-15T08:08:21.183Z",
+      "id": "1"
+    },
+    {
+      "studentId": "103",
+      "studentName": "Chaitanya P",
+      "trainerId": "2",
+      "trainerName": "Arun Sir",
+      "rating": 3,
+      "message": "Testing feedback rating 3",
+      "createdAt": "2026-02-15T08:12:15.317Z",
+      "id": "2"
+    }
+  ],
+  "activityLogs": [
+    {
+      "message": "Student Aakash V gave feedback to Arun Sir",
+      "createdAt": "2026-02-15T08:08:21.224Z",
+      "id": "1"
+    },
+    {
+      "message": "Student Chaitanya P gave feedback to Arun Sir",
+      "createdAt": "2026-02-15T08:12:15.362Z",
+      "id": "2"
+    },
+    {
+      "id": "e001",
+      "message": "Trainer Arun Sir added note to Aakash V",
+      "createdAt": "2026-02-16T08:55:55.424Z"
+    }
+  ],
+  "passwordRequests": [
+    {
+      "id": "c0fc",
+      "userId": "1770919341970",
+      "userName": "tiru",
+      "email": "tiru@gmail.com",
+      "newPassword": "tiru@123",
+      "role": "student",
+      "status": "approved",
+      "date": "2026-02-16"
+    },
+    {
+      "id": "a606",
+      "userId": "209",
+      "userName": "Siddharth D",
+      "email": "siddharth@gmail.com",
+      "newPassword": "student@1",
+      "role": "student",
+      "status": "approved",
+      "date": "2026-02-16"
+    },
+    {
+      "id": "21e3",
+      "userId": "3",
+      "userName": "Priya Ma'am",
+      "email": "priya@gmail.com",
+      "newPassword": "priya@123",
+      "role": "trainer",
+      "status": "rejected",
+      "date": "2026-02-16"
+    },
+    {
+      "id": "aa5c",
+      "userId": "1770919341970",
+      "userName": "tiru",
+      "email": "tiru@gmail.com",
+      "newPassword": "tiru@123",
+      "role": "student",
+      "status": "approved",
+      "date": "2026-02-17"
+    }
+  ]
+}

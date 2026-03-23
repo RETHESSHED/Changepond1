@@ -1,0 +1,14 @@
+
+
+.txt-danger{
+    color: red;
+    font-style: italic;
+    font-weight: 700;
+    font-family: cursive;
+}
+.txt-success{
+    color: rgb(0, 255, 64);
+    font-style: underline;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+}

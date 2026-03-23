@@ -1,0 +1,45 @@
+/* Sidebar sizing */
+.sidebar-nav {
+  width: 260px;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Push content to the right */
+.main-content {
+  margin-left: 260px; /* Same as sidebar width */
+  padding: 30px;
+  width: calc(100% - 260px);
+  min-height: 100vh;
+  background-color: #f8f9fa; /* Classic light gray background */
+}
+
+/* Hover & Active Polish */
+.transition-all {
+  transition: all 0.2s ease-in-out;
+}
+
+.nav-link:hover:not(.bg-primary) {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white !important;
+}
+
+.avatar-circle {
+  width: 35px;
+  height: 35px;
+  background: #343a40;
+  border: 1px solid #495057;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+.tracking-tight {
+  letter-spacing: -1px;
+}

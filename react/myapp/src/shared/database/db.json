@@ -1,0 +1,46 @@
+{
+  "product": [
+    {
+      "id": "1",
+      "pname": "Laptop",
+      "pprice": "15456",
+      "pcompany": "dell"
+    },
+    {
+      "id": "2",
+      "pname": "Mouse",
+      "pprice": 5000,
+      "pcompany": "DELL"
+    },
+    {
+      "id": "35f5",
+      "pname": "RAM",
+      "pprice": "5000",
+      "pcompany": "dell"
+    },
+    {
+      "id": "ba22",
+      "pname": "cow",
+      "pprice": "5000",
+      "pcompany": "HP"
+    },
+    {
+      "id": "77a8",
+      "pname": "adapter",
+      "pprice": "45564",
+      "pcompany": "dell"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "uid": "admin@gmail.com",
+      "upassword": "admin@123"
+    },
+    {
+      "id": "2",
+      "uid": "king@gmail.com",
+      "upassword": "king@123"
+    }
+  ]
+}

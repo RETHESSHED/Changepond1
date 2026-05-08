@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeLeaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Login Page</title>
+<style type="text/css">
+	.failed{
+	color:red;
+	}
+</style>
+</head>
+<body>
+<h3>Login Form</h3>
+<form action='#' th:action="@{/authenticateTheUser}" method="post">
+<div th:id="${param.error}">
+	<!-- check for login error -->
+	<i class = "failed">Invalid username or password!!</i>
+</div>
+
+<div th:id="${param.logout}">
+	You have logged out
+</div>
+
+<table>
+<tr>
+<td>Enter Username: </td>
+<td><input type="text" name="username"></td>
+</tr>
+
+<tr> 
+<td>Enter Password: </td>
+<td><input type="password" name="password"></td>
+</tr>
+
+<tr>
+<td><input type="submit" value="LOGIN"></td>
+</tr>
+
+</table>
+</form>
+</body>
+</html>
